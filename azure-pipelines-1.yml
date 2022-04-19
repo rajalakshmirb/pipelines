@@ -10,6 +10,7 @@ trigger:
 - prod
 
 pool:
+  name: pool1_agent
   vmImage: ubuntu-latest
 
 steps:
