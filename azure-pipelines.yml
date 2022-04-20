@@ -8,10 +8,8 @@ trigger:
   - test
   - prod
 
-pool:
-  name: pool1_agent
-  vmImage: ubuntu-latest
-
+pool: 
+  default
 steps:
 - task: Maven@3
   inputs:
